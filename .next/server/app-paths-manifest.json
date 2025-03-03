@@ -1,8 +1,16 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
   "/community/page": "app/community/page.js",
-  "/download/page": "app/download/page.js",
+  "/guides/getting-started/page": "app/guides/getting-started/page.js",
+  "/guides/strategies/page": "app/guides/strategies/page.js",
   "/guides/page": "app/guides/page.js",
-  "/resources/page": "app/resources/page.js"
+  "/page": "app/page.js",
+  "/guides/speedrun/page": "app/guides/speedrun/page.js",
+  "/download/page": "app/download/page.js",
+  "/guides/achievements/page": "app/guides/achievements/page.js",
+  "/resources/page": "app/resources/page.js",
+  "/download-a-game-about-digging-a-hole/page": "app/download-a-game-about-digging-a-hole/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/terms/page": "app/terms/page.js"
 }

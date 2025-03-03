@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Download, Music, ImageIcon, Bell } from "lucide-react"
+import { Download, ImageIcon, Bell } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function ResourcesPage() {
@@ -8,7 +8,7 @@ export default function ResourcesPage() {
       <div className="container py-12">
         <h1 className="text-4xl font-bold mb-8">Resources</h1>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-1 gap-8 mb-12">
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-6">
               <ImageIcon className="h-6 w-6 text-amber-600 mr-2" />
@@ -59,72 +59,6 @@ export default function ResourcesPage() {
               Download Wallpaper Pack
             </Button>
           </div>
-
-          <div className="bg-white p-8 rounded-lg shadow-md">
-            <div className="flex items-center mb-6">
-              <Music className="h-6 w-6 text-amber-600 mr-2" />
-              <h2 className="text-2xl font-bold">Soundtrack</h2>
-            </div>
-
-            <div className="space-y-4 mb-6">
-              <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">01</span>
-                  <span>Morning Dig</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">3:24</span>
-                  <Button variant="ghost" size="sm">
-                    <Download className="h-4 w-4" />
-                  </Button>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">02</span>
-                  <span>Deeper and Deeper</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">4:12</span>
-                  <Button variant="ghost" size="sm">
-                    <Download className="h-4 w-4" />
-                  </Button>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">03</span>
-                  <span>Soil and Toil</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">2:58</span>
-                  <Button variant="ghost" size="sm">
-                    <Download className="h-4 w-4" />
-                  </Button>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">04</span>
-                  <span>The Perfect Hole</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-gray-500 mr-3">5:16</span>
-                  <Button variant="ghost" size="sm">
-                    <Download className="h-4 w-4" />
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            <Button className="w-full">
-              <Download className="mr-2 h-5 w-5" />
-              Download Complete Soundtrack
-            </Button>
-          </div>
         </div>
 
         <div className="bg-white p-8 rounded-lg shadow-md mb-12">
@@ -170,49 +104,6 @@ export default function ResourcesPage() {
               </Button>
             </div>
           </div>
-        </div>
-
-        <div className="bg-white p-8 rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold mb-6">Press Kit</h2>
-
-          <p className="text-gray-600 mb-6">
-            If you're a content creator, journalist, or streamer interested in covering A Game About Digging A Hole, our
-            press kit contains everything you need.
-          </p>
-
-          <div className="grid md:grid-cols-3 gap-4 mb-6">
-            <div className="p-4 bg-gray-50 rounded-lg text-center">
-              <h3 className="font-bold mb-2">Game Logos</h3>
-              <p className="text-sm text-gray-500 mb-3">PNG, SVG, EPS formats</p>
-              <Button variant="outline" size="sm" className="w-full">
-                <Download className="mr-2 h-4 w-4" />
-                Download
-              </Button>
-            </div>
-
-            <div className="p-4 bg-gray-50 rounded-lg text-center">
-              <h3 className="font-bold mb-2">Screenshots Pack</h3>
-              <p className="text-sm text-gray-500 mb-3">High-res PNG, 4K available</p>
-              <Button variant="outline" size="sm" className="w-full">
-                <Download className="mr-2 h-4 w-4" />
-                Download
-              </Button>
-            </div>
-
-            <div className="p-4 bg-gray-50 rounded-lg text-center">
-              <h3 className="font-bold mb-2">Fact Sheet</h3>
-              <p className="text-sm text-gray-500 mb-3">PDF, DOCX formats</p>
-              <Button variant="outline" size="sm" className="w-full">
-                <Download className="mr-2 h-4 w-4" />
-                Download
-              </Button>
-            </div>
-          </div>
-
-          <p className="text-gray-600 mb-4">
-            For additional press inquiries or to request a review copy, please contact:
-          </p>
-          <p className="font-medium">press@digginggame.com</p>
         </div>
       </div>
     </div>

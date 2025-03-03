@@ -22,13 +22,17 @@ export default function LandingPage() {
               Discover the simple joy of digging in this minimalist, relaxing game about creating the perfect hole.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-amber-600 hover:bg-amber-700 h-12 px-6">
-                <Download className="mr-2 h-5 w-5" />
-                Get the Game
+              <Button className="bg-amber-600 hover:bg-amber-700 h-12 px-6" asChild>
+                <Link href="/download-a-game-about-digging-a-hole">
+                  <Download className="mr-2 h-5 w-5" />
+                  Download A Game About Digging A Hole
+                </Link>
               </Button>
-              <Button variant="outline" className="h-12 px-6">
-                <BookOpen className="mr-2 h-5 w-5" />
-                Learn More
+              <Button variant="outline" className="h-12 px-6" asChild>
+                <Link href="/guides">
+                  <BookOpen className="mr-2 h-5 w-5" />
+                  Learn More
+                </Link>
               </Button>
             </div>
           </div>
@@ -91,16 +95,7 @@ export default function LandingPage() {
       {/* FAQ Section */}
       <FAQ />
 
-      {/* Call to Action */}
-      <section className="py-20 bg-amber-600 text-white">
-        <div className="container text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Start Digging?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join thousands of players who have discovered the simple joy of digging the perfect hole.
-          </p>
-          <Button className="bg-white text-amber-600 hover:bg-gray-100 h-12 px-8 text-lg">Get the Game Now</Button>
-        </div>
-      </section>
+      {/* End of content */}
     </div>
   )
 }

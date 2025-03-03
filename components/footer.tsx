@@ -30,7 +30,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download" className="text-sm text-muted-foreground hover:text-foreground">
+                <Link href="/download-a-game-about-digging-a-hole" className="text-sm text-muted-foreground hover:text-foreground">
                   {t("nav.download")}
                 </Link>
               </li>
@@ -55,13 +55,18 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Social</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="https://twitter.com" className="text-sm text-muted-foreground hover:text-foreground">
+                <Link href="https://x.com/HoleDiggingGame" className="text-sm text-muted-foreground hover:text-foreground">
                   Twitter
                 </Link>
               </li>
               <li>
-                <Link href="https://discord.com" className="text-sm text-muted-foreground hover:text-foreground">
+                <Link href="https://discord.com/invite/8wPsjDxTyQ" className="text-sm text-muted-foreground hover:text-foreground">
                   Discord
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.tiktok.com/@diggingholegame" className="text-sm text-muted-foreground hover:text-foreground">
+                  TikTok
                 </Link>
               </li>
               <li>

@@ -25,10 +25,6 @@ export function FAQ() {
       question: t("faq.q4"),
       answer: t("faq.a4"),
     },
-    {
-      question: t("faq.q5") || "Can I customize my character or tools?",
-      answer: t("faq.a5") || "The game offers various unlockable shovels and character customizations that you can earn through gameplay.",
-    },
   ]
 
   const toggleFaq = (index: number) => {

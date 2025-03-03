@@ -39,7 +39,7 @@ export default function Header() {
           <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
             {t("nav.home")}
           </Link>
-          <Link href="/download" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link href="/download-a-game-about-digging-a-hole" className="text-sm font-medium transition-colors hover:text-primary">
             {t("nav.download")}
           </Link>
           <Link href="/guides" className="text-sm font-medium transition-colors hover:text-primary">
@@ -93,7 +93,7 @@ export default function Header() {
               {t("nav.home")}
             </Link>
             <Link
-              href="/download"
+              href="/download-a-game-about-digging-a-hole"
               className="text-sm font-medium transition-colors hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >

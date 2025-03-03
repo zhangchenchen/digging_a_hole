@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Users, MessageSquare, Share2, Twitter, Github } from "lucide-react"
+import { Users, MessageSquare, Share2, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function CommunityPage() {
@@ -21,7 +21,7 @@ export default function CommunityPage() {
             </p>
 
             <div className="grid grid-cols-2 gap-4">
-              <a href="https://discord.gg/digginggame" target="_blank" rel="noopener noreferrer" className="block">
+              <a href="https://discord.com/invite/8wPsjDxTyQ" target="_blank" rel="noopener noreferrer" className="block">
                 <Button className="w-full bg-[#5865F2] hover:bg-[#4752C4]">
                   <svg
                     className="w-5 h-5 mr-2"
@@ -73,10 +73,24 @@ export default function CommunityPage() {
                 </Button>
               </a>
 
-              <a href="https://twitter.com/digginggame" target="_blank" rel="noopener noreferrer" className="block">
+              <a href="https://x.com/HoleDiggingGame" target="_blank" rel="noopener noreferrer" className="block">
                 <Button className="w-full bg-[#1DA1F2] hover:bg-[#0c85d0]">
                   <Twitter className="mr-2 h-5 w-5" />
                   Twitter
+                </Button>
+              </a>
+
+              <a href="https://www.tiktok.com/@diggingholegame" target="_blank" rel="noopener noreferrer" className="block">
+                <Button className="w-full bg-[#000000] hover:bg-[#333333]">
+                  <svg
+                    className="w-5 h-5 mr-2"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                  </svg>
+                  TikTok
                 </Button>
               </a>
             </div>
@@ -247,82 +261,6 @@ export default function CommunityPage() {
             </div>
 
             <Button className="w-full mt-6">View More Community Posts</Button>
-          </div>
-        </div>
-
-        <div className="bg-white p-8 rounded-lg shadow-md mb-12">
-          <h2 className="text-2xl font-bold mb-6">Community Events</h2>
-
-          <div className="space-y-6">
-            <div className="border-b pb-6">
-              <h3 className="text-xl font-bold mb-2">Monthly Hole Design Contest</h3>
-              <div className="text-sm text-gray-500 mb-3">Every First Saturday</div>
-              <p className="text-gray-600 mb-4">
-                Show off your digging skills in our monthly design contest! Submit screenshots of your most creative
-                holes for a chance to win exclusive in-game items and be featured on our website.
-              </p>
-              <Button variant="outline" size="sm">
-                Learn More
-              </Button>
-            </div>
-
-            <div className="border-b pb-6">
-              <h3 className="text-xl font-bold mb-2">Developer Livestream</h3>
-              <div className="text-sm text-gray-500 mb-3">Every Third Friday, 3PM PST</div>
-              <p className="text-gray-600 mb-4">
-                Join our development team as they showcase upcoming features, answer community questions, and sometimes
-                share exclusive behind-the-scenes content.
-              </p>
-              <Button variant="outline" size="sm">
-                Set Reminder
-              </Button>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-bold mb-2">Speedrunning Tournament</h3>
-              <div className="text-sm text-gray-500 mb-3">Quarterly Event</div>
-              <p className="text-gray-600 mb-4">
-                Think you can dig the fastest hole? Compete against other players in various categories and show off
-                your speed-digging techniques!
-              </p>
-              <Button variant="outline" size="sm">
-                Register Now
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-white p-8 rounded-lg shadow-md">
-          <div className="flex items-center mb-6">
-            <Github className="h-6 w-6 text-amber-600 mr-2" />
-            <h2 className="text-2xl font-bold">Contribute to the Community</h2>
-          </div>
-
-          <p className="text-gray-600 mb-6">
-            We love seeing what our community creates! Share your hole designs, tips, fan art, or even mods to enhance
-            the game experience for everyone.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-lg font-bold mb-3">Share Your Creations</h3>
-              <p className="text-gray-600 mb-4">
-                Post screenshots, videos, or stories about your digging adventures on our community platforms.
-              </p>
-              <Button variant="outline" className="w-full">
-                Upload Content
-              </Button>
-            </div>
-
-            <div className="p-6 bg-gray-50 rounded-lg">
-              <h3 className="text-lg font-bold mb-3">Become a Moderator</h3>
-              <p className="text-gray-600 mb-4">
-                Help us maintain a positive community environment by becoming a volunteer moderator.
-              </p>
-              <Button variant="outline" className="w-full">
-                Apply Now
-              </Button>
-            </div>
           </div>
         </div>
       </div>
