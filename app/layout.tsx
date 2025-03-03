@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 import { LanguageProvider } from "@/components/language-provider"
 import Header from "@/components/header"
@@ -26,6 +27,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <Script 
+          src="https://www.googletagmanager.com/gtag/js?id=G-TNZB3QDDX2" 
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TNZB3QDDX2');
+          `}
+        </Script>
+      </head>
       <body className={inter.className}>
         <LanguageProvider>
           <div className="flex min-h-screen flex-col">
@@ -38,7 +53,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
