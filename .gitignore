@@ -1,0 +1,86 @@
+# 依赖目录
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# 测试覆盖率
+/coverage
+
+# Next.js 构建输出
+/.next/
+/out/
+
+# 生产环境构建
+/build
+/dist
+
+# 其他构建目录
+.swc/
+
+# 环境变量文件（只保留示例文件）
+.env*.local
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel
+
+# Turborepo
+.turbo
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA 文件
+**/public/workbox-*.js
+**/public/sw.js
+**/public/service-worker.js
+
+# 缓存目录
+.cache/
+.eslintcache
+
+# 编辑器目录/文件
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 调试文件
+.debug
+
+# 临时文件
+*.tmp
+*.temp
+.temp
+.tmp
+
+# 本地文档
+/docs/local
+
+# 本地调试用的测试文件
+**/test/temp/**
