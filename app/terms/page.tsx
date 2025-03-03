@@ -2,7 +2,11 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Terms of Service | A Game About Digging A Hole",
-  description: "Terms of Service for A Game About Digging A Hole website"
+  description: "Terms of Service for A Game About Digging A Hole website",
+  keywords: "A Game About Digging A Hole, download A Game About Digging A Hole, a game about digging a hole free, скачать a game about digging a hole",
+  alternates: {
+    canonical: '/terms',
+  }
 }
 
 export default function TermsPage() {

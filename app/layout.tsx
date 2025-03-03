@@ -10,8 +10,13 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "A Game About Digging A Hole",
-  description: "The official website for A Game About Digging A Hole - a minimalist digging adventure",
-    generator: 'v0.dev'
+  description: "A website for A Game About Digging A Hole - a minimalist digging adventure",
+  keywords: "A Game About Digging A Hole, download A Game About Digging A Hole, a game about digging a hole free, скачать a game about digging a hole",
+  generator: 'v0.dev',
+  metadataBase: new URL('https://a-game-about-digging-a-hole.com'),
+  alternates: {
+    canonical: '/',
+  }
 }
 
 export default function RootLayout({

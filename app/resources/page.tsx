@@ -64,7 +64,7 @@ export default function ResourcesPage() {
         <div className="bg-white p-8 rounded-lg shadow-md mb-12">
           <div className="flex items-center mb-6">
             <Bell className="h-6 w-6 text-amber-600 mr-2" />
-            <h2 className="text-2xl font-bold">Official Announcements</h2>
+            <h2 className="text-2xl font-bold">Announcements</h2>
           </div>
 
           <div className="space-y-6">

@@ -4,7 +4,11 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Contact Us | A Game About Digging A Hole",
-  description: "Contact information for A Game About Digging A Hole website"
+  description: "Contact information for A Game About Digging A Hole website",
+  keywords: "A Game About Digging A Hole, download A Game About Digging A Hole, a game about digging a hole free, скачать a game about digging a hole",
+  alternates: {
+    canonical: '/contact',
+  }
 }
 
 export default function ContactPage() {

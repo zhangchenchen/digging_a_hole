@@ -3,9 +3,12 @@ import { Download, Monitor, Cpu, HardDrive } from "lucide-react"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Download A Game About Digging A Hole | Official Game Download",
+  title: "Download A Game About Digging A Hole | Game Download",
   description: "Download A Game About Digging A Hole for Windows, macOS, and Linux. Experience the simple joy of digging with this unique simulation game.",
-  keywords: "A Game About Digging A Hole, download, game download, digging game, simulation game, Steam game",
+  keywords: "A Game About Digging A Hole, download A Game About Digging A Hole, a game about digging a hole free, скачать a game about digging a hole",
+  alternates: {
+    canonical: '/download-a-game-about-digging-a-hole',
+  }
 }
 
 export default function DownloadPage() {
