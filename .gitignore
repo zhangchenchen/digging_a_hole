@@ -1,19 +1,19 @@
 # 依赖目录
-/node_modules
-/.pnp
+node_modules
+.pnp
 .pnp.js
 .yarn/install-state.gz
 
 # 测试覆盖率
-/coverage
+coverage
 
 # Next.js 构建输出
-/.next/
-/out/
+.next/
+out/
 
 # 生产环境构建
-/build
-/dist
+build
+dist
 
 # 其他构建目录
 .swc/
